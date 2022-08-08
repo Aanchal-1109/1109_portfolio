@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    }
+    /*NAVIGATION*/
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 50px;
+    }
+    
+    .right > ul {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .right > ul > li{
+        list-style:none;
+    }
+    
+    .right > ul > li > a , .left >a{ 
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        font-style: bold;
+    }
+    /*INTRO*/
+    .Intro-container {
+       
+        color: black;
+        font-display: fallback;
+        text-align: center;
+        font-size: xx-large;
+        background-repeat: none;
+        background-color:aqua;
+        row-gap: 20px;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    .Intro-container img {
+        display: flex;
+        height:100px;
+        width:100px;
+        border-image: 30px;
+    
+    }
+     .head
+    {
+        text-align: center;
+        font-size: large;
+        
+    }
+    
+    /*ABOUT*/
+    .about-container {
+       display:flex;
+       padding: 40px 40px;
+    }
+    .about-container img{
+            height:350px;
+        width:350px;
+        padding: 30px 30px;
+    
+      /*  background-color: turquoise;*/
+    }
+    
+    .about-text {
+    text-align:left;
+    }
+    
+    .about-text p{ 
+        color: #403e3e;
+        font-family: myraid pro;
+        font-weight:bold;
+        font-size:23px;
+        padding: 50px 40px;
+        
+        background-color: aqua;
+    } 
+    /*SKILLSETS*/
+    
+        .skillset-container{
+            display :flex;
+            justify-content:center;
+            justify-content: space-between;
+        padding: 50px 50px;
+        background-color:aqua; 
+        }
+    /*PROJECTS*/
+        .project-container {
+            display :flex;
+            justify-content:center;
+            justify-content: space-between;
+        padding: 50px 50px; 
+       background-color: aqua; 
+    }
+    /*FORM*/
+    #form { 
+        text-align: center;
+        align-items: center;
+        padding: 40px , 20px;
+       margin-left: auto;
+       margin-right: auto; 
+       display: flex; 
+       justify-content:space-evenly;
+      
+    }
+    .field {
+        padding: 10px 30px;
+        margin-bottom: 30px;
+        border: 3px solid black;
+        border-radius: 6px;
+        
+    }
+    .description {
+        padding: 30px 50px;
+        margin-bottom: 30px;
+        border: 3px solid black;
+        border-radius: 6px;  
+    }
+    
+    #formtext{
+        row-gap: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;}
+    #submitbutton {
+         padding: 10px 20px;
+         font-size: 20px;
+         font-family:'Times New Roman', Times, serif ;
+         letter-spacing: 3px;
+         margin-bottom: 30px;
+         border: 3px solid black;
+         border-radius: 6px;
+         background-color: pink;
+         align-items: center;
+    }
+    /*SOCIAL MEDIA*/
+    .socialmedia{ 
+        width: 30px;
+    
+    }
+    #social {
+        padding-top: 1rem;
+        display: flex;
+        justify-content:center;
+    
+        background-color: aqua;
+        
+        padding: 50px 50px;
+    }
+    .socialmedia:hover {
+        width: 60px;
+        
+    }
+    .logo {
+        align-items: start;
+    }
+    /*.lets-talk{
+        display :flex;
+        justify-content:center;
+        justify-content: space-between;
+    padding: 50px 50px; 
+    } */ 
+    
+    
+    /*FOOTER*/
+    .footer{
+        text-align:center;
+        font-size: 1.2rem;
+       
+    }
+    
